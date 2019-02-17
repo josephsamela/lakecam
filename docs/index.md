@@ -1,5 +1,5 @@
 
-### Welcome to Quabog!
+### Welcome to Quaboag!
 
 Lake Quaboag of East Brookfield, MA is part of the Chicopee River Watershed. Quaboag is fed by the East Brookfield River and drains into the Quaboag River. The goal of the Lakecam Project is to celebrate beautiful Lake Quaboag by engaging with the local community.
 
