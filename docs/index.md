@@ -5,10 +5,12 @@ Lake Quaboag of East Brookfield, MA is part of the Chicopee River Watershed. Qua
 
 ### Livestream
 
-Sun, lightning and epic sunsets! No matter the time of year Lake Quaboag showcases the natural beauty of central Massachusetts. Share this experience with others - with a live view of the lake! This livestream looks from the eastern shore with a view of the central lake and sunset. Enjoy the peaceful ambiance, look for wildlife and enjoy the timeless landscape!
+Sun, lightning and epic sunsets! No matter the time of year Lake Quaboag showcases the natural beauty of central Massachusetts. Share this experience with a live view of the lake! This livestream looks from the eastern shore with a view of the central lake and sunset. Enjoy the peaceful ambiance, look for wildlife and enjoy this timeless landscape!
 
+<center>
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/3-pPS5GB7zQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</center>
+  
 ### Postcards
 
 Enjoy postcards from local reporter Nancy! Follow her at [postcardsfrombirchbank](https://www.instagram.com/postcardsfrombirchbank/) on Instagram. She covers local events, wildlife, weather, residents, and other exciting happenings of the Quaboag lake community. 
