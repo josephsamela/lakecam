@@ -1,21 +1,24 @@
 
 import os
 
-os.system("weather-util zip-code --imperial -a > report.txt")
+os.system("weather-util 01234 --imperial --forecast --no-conditions --quiet > report.txt")
 
 with open("report.txt", "r") as weather:
-    report = weather.readlines()
+    report = weather.read()
 
-location    = report[0]
-datetime    = report[1]
-temperature = report[2].split(": ")[1].replace('\n','')
-humidity    = report[3].split(": ")[1].replace('\n','')
-wind        = report[4].split(": ")[1].replace('\n','')
-windchill   = report[5].split(": ")[1].replace('\n','')
-condition   = report[6].split(": ")[1].replace('\n','')
-alerts      = report[7].replace('\n','')
+report = report.replace('\n',' ')
+report = report.split('.SATURDAY.')[1]
+report = report.split('.MONDAY.')[0]
 
-message = "Chilly " + temperature + " with " + humidity + " humidity. " + "Wind " + wind + ". " + "Weather is " +condition + "."
+SATURDAY = report.split('.SATURDAY NIGHT')[0]
+SATURDAYNIGHT = report.split('.SATURDAY NIGHT')[1].split('.SUNDAY')[0]
+SUNDAY = report.split('.SUNDAY')[1].split('.SUNDAY NIGHT')[0]
+SUNDAYNIGHT = report.split('.SUNDAY NIGHT')[1]
+
+message = 'Get excited for the weekend!'+'\n\n'+'SATURDAY'+SATURDAY+'\n\n'+'SATURDAY NIGHT'+SATURDAYNIGHT+'\n\n'+'SUNDAY'+SUNDAY+'\n\n'+'SUNDAY NIGHT'+SUNDAYNIGHT
+
+message = message.replace('...',' - ')
+print(message)
 
 with open("caption.txt", "w") as caption:
     caption.write(message)
