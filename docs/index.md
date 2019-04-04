@@ -22,6 +22,8 @@ Social media is hard. The algorithem expects consistant uploads with unique cont
 * Micro USB to Type-A cable (To connect webcam to pi)
 * USB Power adapter (User a good 2A charger)
 
+![Image of lakecam system](image_lakecam_components.jpg)
+
 ## Setup
 
 Install raspbian from NOOBS or equivelant. Edit `/etc/wpa_supplicant/wpa_supplicant.conf` with set ssid and password of any future wifi connections. 
