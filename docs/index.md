@@ -20,7 +20,7 @@ Social media is hard. The algorithem expects consistant uploads with unique cont
 * 32GB SD Card (With raspbian installed, NOOBS or equivelant)
 * Logitech C920 Webcam (Any usb webcam or picam will work)
 * Micro USB to Type-A cable (To connect webcam to pi)
-* USB Power adapter (User a good 2A charger)
+* USB Power adapter (Use a good 2A charger)
 
 ![Image of lakecam system](image_lakecam_components.jpg)
 
