@@ -28,7 +28,7 @@ Social media is hard. The algorithem expects consistant uploads with unique cont
 
 Install raspbian from NOOBS or equivelant. Edit `/etc/wpa_supplicant/wpa_supplicant.conf` with set ssid and password of any future wifi connections. 
 
-```shell
+```console
 network={
     ssid="access-point-name"
     psk="password"
@@ -43,7 +43,7 @@ Install required software.
 * [instapy-cli](https://github.com/b3nab/instapy-cli) - post photos to instagram
 * [ffmpeg](https://ffmpeg.org/) - stream webcam feed to rtmp
 
-```shell
+```console
 $ sudo apt install weather-util fswebcam imagemagick ffmpeg
 $ python3 -m pip install instapy-cli
 ```
@@ -52,7 +52,7 @@ Build `audio.mp3` with 24+hrs of music. Use the royalty-free stuff from the [Fre
 
 Move included scripts and `audio.mp3` to `/home/pi`. Should look like this:
 
-```shell
+```console
 /home/pi/
     ├── main.sh
     ├── 1-wait-for-network.sh
@@ -68,7 +68,7 @@ Edit `4-post-to-instagram.py` with instagram account credentials.
 Edit `5-stream-to-livestream.sh` with rtmp stream address + key.
 Edit `crontab -e` to reboot every day at noon and run `main.sh` on reboot. Your `crontab -e` should look like this:
 
-```shell
+```console
 00 12 * * * reboot
 @reboot sh /home/pi/main.sh
 ```
