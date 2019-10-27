@@ -13,7 +13,6 @@ Social media is hard. The algorithem expects consistant uploads with unique cont
 7. Keeps streaming until next day at noon, then reboots.
 8. Repeat...
 
-
 ## Hardware
 
 * Raspberry Pi Zero W (Use a case with plenty of mounting options)
@@ -36,6 +35,7 @@ network={
 ```
 
 Install required software.
+
 * [python](https://www.python.org/) - Programming language 
 * [weather-util](http://fungi.yuggoth.org/weather/) - fetch weather reports
 * [fswebcam](http://www.sanslogic.co.uk/fswebcam/) - take webcam photos
