@@ -36,6 +36,7 @@ network={
 ```
 
 Install required software.
+
 * [python](https://www.python.org/) - Programming language 
 * [weather-util](http://fungi.yuggoth.org/weather/) - fetch weather reports
 * [fswebcam](http://www.sanslogic.co.uk/fswebcam/) - take webcam photos
